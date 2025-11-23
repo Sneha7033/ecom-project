@@ -1,0 +1,362 @@
+{
+  "seller": [
+    {
+      "id": "7b5b",
+      "name": "sneha",
+      "email": "sneha@gmail.com",
+      "password": "n1a1r1u1t1o1"
+    },
+    {
+      "id": "234a",
+      "Name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "2738",
+      "Name": "fghjmk,",
+      "email": "riyaabhatt@hmm.vom",
+      "password": "fghjk"
+    },
+    {
+      "id": "cb62",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "289c",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "e657",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "08b4",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "2d28",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "f1fe",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "bd08",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "0b22",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "3e59",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "fa69",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "e923",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "1448",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "fbb6",
+      "Name": "b m",
+      "email": "m,bnm",
+      "password": "hbnjm"
+    },
+    {
+      "id": "2cde",
+      "Name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "5a98",
+      "Name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "8d65",
+      "Name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "15b3",
+      "name": "sneha",
+      "email": "sneha@gmail.com",
+      "password": "n1a1r1u1t1o1"
+    },
+    {
+      "id": "3849",
+      "Name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "7068",
+      "Name": "sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "abc@123"
+    }
+  ],
+  "products": [
+    {
+      "id": "6fff",
+      "name": "Realme 10 pro 5g",
+      "price": "20000",
+      "color": "Black",
+      "category": "Mobile Phone",
+      "description": "108MP + 2MP | 16MP Front Camera; 5000 mAh Battery\nForm Factor: Bar",
+      "image": "https://m.media-amazon.com/images/I/41My0l+SWeL.jpg"
+    },
+    {
+      "id": "b688",
+      "name": "I phone 16",
+      "price": "66900",
+      "color": "Blue",
+      "category": "Mobile Phone",
+      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
+      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg"
+    },
+    {
+      "id": "0527",
+      "name": "Primebook 2 Neo",
+      "price": "14990",
+      "color": "Grey",
+      "category": "Leptop",
+      "description": "Brand\tPrimebook\nModel Name\tPrimebook 2 Neo 2025\nScreen Size\t11.6 Inches\nColour\tGray\nHard Disk Size\t128 GB\nCPU Model\tMediaTek Helio\nRAM Memory Installed Size\t6 GB\nOperating System\tPrimeOS 3.0\nSpecial Feature\tLightweight, Memory Card Slot\nGraphics Card Description\tIntegrated\n",
+      "image": "https://m.media-amazon.com/images/I/713cu-sW3TL._SX679_.jpg"
+    },
+    {
+      "id": "67e5",
+      "name": "Reebok Men's Running Shoes - Stride Runner - Lightweight Training Shoes for Gym, Running and Fitness",
+      "price": "1326",
+      "color": "Black",
+      "category": "Shoes",
+      "description": "Material typeMesh\nClosure typeLace-Up\nHeel typeFlat\nWater resistance levelNot Water Resistant\nSole materialEthylene Vinyl Acetate\nStyleRunning\nCountry of OriginIndia",
+      "image": "https://m.media-amazon.com/images/I/51Inwb0gwLL._SY625_.jpg"
+    },
+    {
+      "id": "4059",
+      "name": "KLOSIA Women's Rayon Printed Anarkali Kurta and Pant with Dupatta Set",
+      "price": "799",
+      "color": "Blue",
+      "category": "Kurti",
+      "description": "Material typeRayon\nFit typeRegular\nStyleAnarkali\nClosure typePull On\nCare instructionsDry Clean Only\nAge range descriptionAdult",
+      "image": "https://m.media-amazon.com/images/I/71I53evweVL._SY741_.jpg"
+    },
+    {
+      "id": "bba0",
+      "name": "Nervfit Newly Launched Blaze Smartwatch 1.4” LED Display, Bluetooth Calling, IP67 Waterproof, Heart Rate & SpO2 Monitor, Sleep & Stress Tracking, 7-Day Battery, Fitness & Sports Modes (Silver Grey)",
+      "price": "2199",
+      "color": "Grey",
+      "category": "Smartwatch",
+      "description": "Operating System\tWatch OS 8\nMemory Storage Capacity\t127.98 MB\nSpecial Feature\tActivity Tracker, Custom Activity Tracking, Music Player, Notifications, Phone Call\nBattery Capacity\t300 Milliamp Hours\nConnectivity Technology\tBluetooth",
+      "image": "https://m.media-amazon.com/images/I/71YctMdZFwL._SX522_.jpg"
+    },
+    {
+      "id": "b368",
+      "name": "Dowinx Multi-Functional Ergonomic Gaming & Computer Chair – Massage Cushion, Premium PU Leather, Adjustable Neck & Lumbar Pillow for Back Support & Footrest, Home & Office Chair",
+      "price": "9999",
+      "color": "Black",
+      "category": "Chair",
+      "description": "\nBrand\tDowinx\nColour\tBlack\nMaterial\tFaux Leather\nProduct Dimensions\t50D x 64W x 127H Centimeters\nSize\tOversized\nBack Style\tWinged High Back\nSpecial Feature\tAdjustable Headrest, Adjustable Height, Adjustable Lumbar, Foot Rest, Reclining\nProduct Care Instructions\tWipe Clean\nNet Quantity\t1 count\nSeat Material Type\tLeather",
+      "image": "https://m.media-amazon.com/images/I/61yJRbSSx4L._SX679_.jpg"
+    },
+    {
+      "id": "c813",
+      "name": "Bewakoof Women T-Shirt",
+      "price": "599",
+      "color": "Lavender",
+      "category": "T-Shirt",
+      "description": "Material composition109 % Cotton\nFit typeOversized Fit\nSleeve typeHalf Sleeve\nCollar styleCrew Neck\nLengthStandard Length\nNeck styleCrew Neck\nCountry of OriginIndia",
+      "image": "https://m.media-amazon.com/images/I/61tVv6nfMSL._SY741_.jpg"
+    },
+    {
+      "id": "7708",
+      "name": "Bewakoof Women's Printed Relaxed Fit T-Shirt",
+      "price": "449",
+      "color": "Black",
+      "category": "T-Shirt",
+      "description": "Material compositionCotton\nPatternGraphic\nFit typeRelaxed Fit\nSleeve typeHalf Sleeve\nCollar styleCollarless\nNeck styleRound Neck\nCountry of OriginIndia",
+      "image": "https://m.media-amazon.com/images/I/61uux8XK66L._SX569_.jpg"
+    },
+    {
+      "id": "3296",
+      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
+      "price": "749",
+      "color": "Brown",
+      "category": "Jacket",
+      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
+      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg"
+    },
+    {
+      "id": "1e53",
+      "name": "GRECIILOOKS Men's Loose Mid Rise Casual Trousers Pants | Regular | Sports Stylish Treck Pant | Sweatpants (Available in Plus Size and Combo Pack of 2)",
+      "price": "549",
+      "color": "Black",
+      "category": "Lower",
+      "description": "Versatile Style: Elevate your activewear collection with our Stylish Track Pant for Men. Perfect for workouts, casual outings, or lounging at home, these pants combine functionality with fashion.\nComfortable Loose Fit: Experience ultimate comfort with our Loose Fit Track Pant for Men. Designed to provide ample room for movement, they are perfect for running, gym sessions, or everyday wear.",
+      "image": "https://m.media-amazon.com/images/I/51QpV0KfZaL._SY741_.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "d0f0",
+      "name": "Realme 10 pro 5g",
+      "email": "snehasemwal22@gmail.com",
+      "password": "frtyuik"
+    },
+    {
+      "id": "934a",
+      "name": "samsung",
+      "email": "sdfgthj",
+      "password": "hjk"
+    },
+    {
+      "id": "0107",
+      "name": "sneha",
+      "email": "sneha@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "c8eb",
+      "name": "sneha",
+      "email": "opkartik95@gmail.com",
+      "password": "abc@123"
+    }
+  ],
+  "cart": [
+    {
+      "id": "2ab9",
+      "name": "I phone 16",
+      "price": "66900",
+      "color": "Blue",
+      "category": "Mobile Phone",
+      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
+      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "b688"
+    },
+    {
+      "id": "1060",
+      "name": "I phone 16",
+      "price": "66900",
+      "color": "Blue",
+      "category": "Mobile Phone",
+      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
+      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "b688"
+    },
+    {
+      "id": "f68f",
+      "name": "I phone 16",
+      "price": "66900",
+      "color": "Blue",
+      "category": "Mobile Phone",
+      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
+      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "b688"
+    },
+    {
+      "id": "84cb",
+      "name": "Nervfit Newly Launched Blaze Smartwatch 1.4” LED Display, Bluetooth Calling, IP67 Waterproof, Heart Rate & SpO2 Monitor, Sleep & Stress Tracking, 7-Day Battery, Fitness & Sports Modes (Silver Grey)",
+      "price": "2199",
+      "color": "Grey",
+      "category": "Smartwatch",
+      "description": "Operating System\tWatch OS 8\nMemory Storage Capacity\t127.98 MB\nSpecial Feature\tActivity Tracker, Custom Activity Tracking, Music Player, Notifications, Phone Call\nBattery Capacity\t300 Milliamp Hours\nConnectivity Technology\tBluetooth",
+      "image": "https://m.media-amazon.com/images/I/71YctMdZFwL._SX522_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "bba0"
+    },
+    {
+      "id": "dd18",
+      "name": "I phone 16",
+      "price": "66900",
+      "color": "Blue",
+      "category": "Mobile Phone",
+      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
+      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "b688"
+    },
+    {
+      "id": "39a2",
+      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
+      "price": "749",
+      "color": "Brown",
+      "category": "Jacket",
+      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
+      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "3296"
+    },
+    {
+      "id": "819d",
+      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
+      "price": "749",
+      "color": "Brown",
+      "category": "Jacket",
+      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
+      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "3296"
+    },
+    {
+      "id": "3b87",
+      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
+      "price": "749",
+      "color": "Brown",
+      "category": "Jacket",
+      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
+      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg",
+      "quantity": 1,
+      "userId": "0107",
+      "productId": "3296"
+    }
+  ],
+  "orders": []
+}

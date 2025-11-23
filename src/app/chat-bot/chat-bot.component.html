@@ -1,0 +1,27 @@
+<div class="chat-icon" (click)="toggleChat()">
+  💬
+</div>
+
+<div class="chat-window" *ngIf="open">
+  <div class="chat-header">
+    <h3>E-COMM Bot</h3>
+    <button (click)="toggleChat()">✕</button>
+  </div>
+
+  <div class="chat-messages">
+    <div *ngFor="let m of messages" [ngClass]="m.role">
+      <strong *ngIf="m.role === 'user'">You:</strong>
+      <strong *ngIf="m.role === 'assistant'">Bot:</strong>
+      <span>{{ m.content }}</span>
+    </div>
+  </div>
+
+  <div class="chat-input">
+    <input
+      [(ngModel)]="currentMessage"
+      (keyup.enter)="send()"
+      placeholder="Ask about orders, products..."
+    />
+    <button (click)="send()">Send</button>
+  </div>
+</div>
