@@ -1,27 +1,34 @@
-<div class="chat-icon" (click)="toggleChat()">
-  💬
-</div>
-
-<div class="chat-window" *ngIf="open">
-  <div class="chat-header">
-    <h3>E-COMM Bot</h3>
-    <button (click)="toggleChat()">✕</button>
-  </div>
-
-  <div class="chat-messages">
-    <div *ngFor="let m of messages" [ngClass]="m.role">
-      <strong *ngIf="m.role === 'user'">You:</strong>
-      <strong *ngIf="m.role === 'assistant'">Bot:</strong>
-      <span>{{ m.content }}</span>
+<div class="page-wrapper">
+  <div class="chat-container">
+    <div class="chat-bubble" (click)="toggleChat()">
+      Chat
     </div>
-  </div>
 
-  <div class="chat-input">
-    <input
-      [(ngModel)]="currentMessage"
-      (keyup.enter)="send()"
-      placeholder="Ask about orders, products..."
-    />
-    <button (click)="send()">Send</button>
+    <div class="chat-window" *ngIf="open">
+      <div class="header">
+        <h1>Welcome to our E-comm chat bot</h1>
+      </div>
+      <div class="chat-messages">
+        <div *ngFor="let msg of messages" [ngClass]="msg.from">
+          <div class="chat-message">
+            <strong>{{ msg.from }}: </strong>{{ msg.text }}
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <input
+          class="form-input"
+          type="text"
+          [(ngModel)]="userInput"
+          (keyup.enter)="sendMessage()"
+          placeholder="Type something..."
+        />
+
+        <button class="form-button" (click)="sendMessage()" [disabled]="loading">
+          {{ loading ? 'thinking...' : 'Send' }}
+        </button>
+      </div>
+    </div>
   </div>
 </div>

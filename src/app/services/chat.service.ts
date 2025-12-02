@@ -1,24 +1,37 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { ChatMessage, ChatResponse } from '../data-type';
 
-export interface ChatMessage{
 
-  role: 'user'| 'assistant';
-  content:string;
-}
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChatService {
-  private apiUrl = 'http://localhost:5000/api/chat';
+  private apiUrl = 'http://localhost:5000/api/chat';//normal chat
+  private ragApiUrl = 'http://localhost:5000/api/chat-rag';//rag chat
   constructor(private http: HttpClient) {}
 
-  sendMessage(message:string, history:ChatMessage[]):Observable<{answer:string}>{
-    return this.http.post<{answer:string}>(this.apiUrl,{
+  sendMessage(
+    message:string, 
+    history:ChatMessage[],
+    systemPrompt?:string
+  ):Observable<ChatResponse>{
+    return this.http.post<ChatResponse>(this.apiUrl,{
       message,
-      history
+      history,
+      systemPrompt,
+    });
+  }
+
+  sendMessageWithRag(
+    message: string,
+    history: ChatMessage[]
+  ): Observable<ChatResponse> {
+    return this.http.post<ChatResponse>(this.ragApiUrl, {
+      message,
+      history,
     });
   }
 }

@@ -5,133 +5,8 @@
       "name": "sneha",
       "email": "sneha@gmail.com",
       "password": "n1a1r1u1t1o1"
-    },
-    {
-      "id": "234a",
-      "Name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "2738",
-      "Name": "fghjmk,",
-      "email": "riyaabhatt@hmm.vom",
-      "password": "fghjk"
-    },
-    {
-      "id": "cb62",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "289c",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "e657",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "08b4",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "2d28",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "f1fe",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "bd08",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "0b22",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "3e59",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "fa69",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "e923",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "1448",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "fbb6",
-      "Name": "b m",
-      "email": "m,bnm",
-      "password": "hbnjm"
-    },
-    {
-      "id": "2cde",
-      "Name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "5a98",
-      "Name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "8d65",
-      "Name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "15b3",
-      "name": "sneha",
-      "email": "sneha@gmail.com",
-      "password": "n1a1r1u1t1o1"
-    },
-    {
-      "id": "3849",
-      "Name": "sandeep",
-      "email": "sandeep@gmail.com",
-      "password": "abc@123"
-    },
-    {
-      "id": "7068",
-      "Name": "sandeep",
-      "email": "sandeep@gmail.com",
-      "password": "abc@123"
     }
+
   ],
   "products": [
     {
@@ -260,103 +135,15 @@
       "password": "abc@123"
     }
   ],
-  "cart": [
+  "cart": [],
+  "orders": [
     {
-      "id": "2ab9",
-      "name": "I phone 16",
-      "price": "66900",
-      "color": "Blue",
-      "category": "Mobile Phone",
-      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
-      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "b688"
-    },
-    {
-      "id": "1060",
-      "name": "I phone 16",
-      "price": "66900",
-      "color": "Blue",
-      "category": "Mobile Phone",
-      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
-      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "b688"
-    },
-    {
-      "id": "f68f",
-      "name": "I phone 16",
-      "price": "66900",
-      "color": "Blue",
-      "category": "Mobile Phone",
-      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
-      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "b688"
-    },
-    {
-      "id": "84cb",
-      "name": "Nervfit Newly Launched Blaze Smartwatch 1.4” LED Display, Bluetooth Calling, IP67 Waterproof, Heart Rate & SpO2 Monitor, Sleep & Stress Tracking, 7-Day Battery, Fitness & Sports Modes (Silver Grey)",
-      "price": "2199",
-      "color": "Grey",
-      "category": "Smartwatch",
-      "description": "Operating System\tWatch OS 8\nMemory Storage Capacity\t127.98 MB\nSpecial Feature\tActivity Tracker, Custom Activity Tracking, Music Player, Notifications, Phone Call\nBattery Capacity\t300 Milliamp Hours\nConnectivity Technology\tBluetooth",
-      "image": "https://m.media-amazon.com/images/I/71YctMdZFwL._SX522_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "bba0"
-    },
-    {
-      "id": "dd18",
-      "name": "I phone 16",
-      "price": "66900",
-      "color": "Blue",
-      "category": "Mobile Phone",
-      "description": "\nBrand\tApple\nOperating System\tiOS\nRAM Memory Installed Size\t128 GB\nCPU Model\tA Series A10\nMemory Storage Capacity\t128 GB",
-      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "b688"
-    },
-    {
-      "id": "39a2",
-      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
-      "price": "749",
-      "color": "Brown",
-      "category": "Jacket",
-      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
-      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "3296"
-    },
-    {
-      "id": "819d",
-      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
-      "price": "749",
-      "color": "Brown",
-      "category": "Jacket",
-      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
-      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "3296"
-    },
-    {
-      "id": "3b87",
-      "name": "Lymio Jackets || Jacket for men || Lightweight Outwear Jacket (J-04-06)",
-      "price": "749",
-      "color": "Brown",
-      "category": "Jacket",
-      "description": "men jackets || bomber jacket for men || Lightweight Outwear Sportswear Bomber Jacket\nType:Bomber\nSleeve Length:Long Sleeve\nFit Type:Regular Fit\nPlease Noted - Only upper part of Only shirt is given Not inner t shirt and No any Accessories given",
-      "image": "https://m.media-amazon.com/images/I/71er0AVpnAL._SY741_.jpg",
-      "quantity": 1,
-      "userId": "0107",
-      "productId": "3296"
+      "id": "764f",
+      "email": "sneha@gmail.com",
+      "address": "joshimath",
+      "contact": "1234567890",
+      "totalPrice": 100,
+      "userId": "0107"
     }
-  ],
-  "orders": []
+  ]
 }

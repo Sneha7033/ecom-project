@@ -2,7 +2,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .container{
-    
+    background-color: rgb(245, 245, 247);
     margin-left: 5%;
     margin-right: 5%;
 }

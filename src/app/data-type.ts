@@ -49,3 +49,14 @@ export interface order {
     userId: number,
     id: number|undefined
 }
+
+export  interface ChatMessage {
+    role: 'user'|'assistant';
+    content: string;
+}
+
+export interface ChatResponse{
+    answer: string;
+    newHistory: ChatMessage[];
+    matchedProducts?: product[];
+}

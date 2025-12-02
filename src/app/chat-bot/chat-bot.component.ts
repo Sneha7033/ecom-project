@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { ChatService, ChatMessage } from '../services/chat.service';
+import { ChatService } from '../services/chat.service';
 import { NgIf, NgFor, NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ChatMessage } from '../data-type';
 
 @Component({
   selector: 'app-chat-bot',
@@ -12,8 +13,10 @@ import { FormsModule } from '@angular/forms';
 })
 export class ChatBotComponent {
   open = false;
-  currentMessage = '';
-  messages: ChatMessage[] = [];
+  messages: {from: 'user' | 'bot'; text: string}[] = [];
+  userInput: string = '';
+  history: ChatMessage[]=[];
+  loading = false;
 
   constructor(private chatService: ChatService) {}
 
@@ -21,29 +24,33 @@ export class ChatBotComponent {
     this.open = !this.open;
   }
 
-  send() {
-    const text = this.currentMessage.trim();
-    if (!text) return;
-
-    const userMsg: ChatMessage = { role: 'user', content: text };
-    this.messages.push(userMsg);
-    this.currentMessage = '';
-
-
-    this.chatService.sendMessage(text, this.messages).subscribe({
-      next: (res) => {
-        const botMsg: ChatMessage = {
-          role: 'assistant',
-          content: res.answer  
-        };
-        this.messages.push(botMsg);
+  sendMessage() {
+    const trimmed = this.userInput.trim();
+    if (!trimmed) {
+      return;
+    }
+    this.messages.push({ from: 'user', text: trimmed});
+    this.loading = true;
+     
+  
+    this.chatService.
+    sendMessageWithRag(trimmed, this.history)
+    .subscribe({
+      next: (res)=>{
+        this.messages.push({ from: 'bot', text: res.answer });
+        this.history = res.newHistory;
+        this.userInput = '';
+        this.loading = false;
       },
-      error: () => {
-        this.messages.push({
-          role: 'assistant',
-          content: 'Sorry, I could not connect to the bot server.'
+      error: err => {
+        console.error('Error during chat processing:', err);
+        this.messages.push({ 
+          from: 'bot', 
+          text: "Sorry, something went wrong. Please try again later." 
         });
+        this.loading = false;
       }
     });
   }
+  
 }
